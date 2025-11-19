@@ -1,40 +1,50 @@
-# 💸 Expense-AI — Smart Expense Tracker with AI Categorization
-
-Expense-AI is a simple and powerful web app that helps you track your expenses.  
-It uses **AI-based categorization** to automatically detect whether an expense belongs to **Food, Travel, Shopping, Bills, Entertainment, or Others**.
-
-This project is built using:
-- **Flask (Python)** — Backend
-- **HTML + CSS + JavaScript** — Frontend
-- **Chart.js** — Pie & Bar charts
-- **AI-based rule engine** — Auto categorization
+# 💸 Expense-AI  
+A smart and simple **AI-powered Expense Tracker** that automatically categorizes your expenses and shows clear visual insights using charts.
 
 ---
 
-## 🚀 Features
+## 🚀 Overview
 
-### ✅ Add expenses easily  
-Enter:
-- Amount  
-- Description  
+Expense-AI makes expense tracking effortless.  
+Just enter:
+- 💰 Amount  
+- 📝 Description  
 
-### ✅ AI Categorization  
-Automatically detects categories such as:
-- Food  
-- Travel  
-- Bills  
-- Shopping  
-- Entertainment  
-- Others  
+And the **AI automatically detects** the correct category:
+- 🍔 Food  
+- 🚗 Travel  
+- 🛍️ Shopping  
+- 💡 Bills  
+- 🎬 Entertainment  
+- 📦 Others  
 
-### ✅ Visual Charts  
-- **Pie Chart** → Spending category distribution  
-- **Bar Chart** → Total spending per category  
+You also get:
+- 📊 Pie Chart of category-wise spending  
+- 📈 Bar Chart of total expenses per category  
 
-### ✅ Simple & Clean UI  
 Works on **any browser**, desktop or mobile.
 
 ---
 
-## 🏗️ Folder Structure
+## 🏗️ Tech Stack
+
+### **Frontend**
+- HTML  
+- CSS  
+- JavaScript  
+- Chart.js  
+
+### **Backend**
+- Python  
+- Flask  
+- Flask-CORS  
+
+### **AI Logic**
+- Rule-based NLP keyword categorizer (fast + zero errors)
+
+---
+
+
+
+
 
