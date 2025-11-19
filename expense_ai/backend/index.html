@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>AI Expense Tracker</h1>
+
+        <div class="input-group">
+            <input id="amount" type="number" placeholder="Amount">
+            <input id="description" type="text" placeholder="Description">
+            <button onclick="addExpense()">Add</button>
+        </div>
+
+        <button id="analyze-btn" onclick="analyzeAI()">Analyze with AI</button>
+
+        <table id="table">
+            <tr>
+                <th>Amount</th>
+                <th>Description</th>
+                <th>Category (AI)</th>
+            </tr>
+        </table>
+
+        <canvas id="pieChart"></canvas>
+        <canvas id="barChart"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
